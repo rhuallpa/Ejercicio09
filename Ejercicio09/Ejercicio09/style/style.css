@@ -1,0 +1,23 @@
+/* labelRedStyle */
+.label-red {
+    horizontal-options: center;
+    vertical-options: center-and-expand;
+    font-size: large;
+    color: orange;
+}
+
+/* labelGreenStyle */
+.label-green {
+    horizontal-options: center;
+    vertical-options: center-and-expand;
+    font-size: large;
+    color: green;
+}
+
+/* labelBlueStyle */
+.label-blue {
+    horizontal-options: center;
+    vertical-options: center-and-expand;
+    font-size: large;
+    color: blue;
+}

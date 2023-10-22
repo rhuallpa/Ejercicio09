@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09.tareacss">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="style/style.css" />
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label Text="These labels" StyleClass="label-orange" />
+        <Label Text="are demonstrating" StyleClass="label-green" />
+        <Label Text="explicit styles," StyleClass="label-blue" />
+        <Label Text="and an explicit style override" StyleClass="label-blue" TextColor="DeepSkyBlue" />
+    </StackLayout>
+</ContentPage>
